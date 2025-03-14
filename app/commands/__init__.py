@@ -5,6 +5,7 @@ class Command(ABC):
     def execute(self):
         pass
 
+
 class CommandHandler:
     def __init__(self):
         self.commands = {}
