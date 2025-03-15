@@ -1,3 +1,5 @@
+## Explanation video link https://youtu.be/DC_oqTlcTEc
+
 ## Design Patterns
 1. The core of this application uses the REPL Command Pattern to encapsulate each operation (e.g., Add, Subtract, Multiply, Divide) as a command with an execute() method. This allows for easy extension (e.g., adding new plugins) without modifying existing code
 2. Abstract Base Class: Command in app/commands/__init__.py
