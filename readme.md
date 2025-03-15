@@ -7,7 +7,8 @@
 6. Commands can be dynamically registered and executed by name via the CommandHandler (see app/commands/__init__.py), making the system highly extensible.
 
 ## Environmental Variable
-1. 
+1. We use this to access .csv file name to store the history
+2. We use this to keep the log file names where all the error logs will be stored.
 
 ## Logging
 1. We log both informational messages and errors to help monitor the application and debug issues.
